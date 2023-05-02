@@ -605,7 +605,7 @@ function Nordic.CreateLib(kavName, themeList)
                 sectionFrame.BackgroundColor3 = themeList.Background
                 sectionHead.BackgroundColor3 = themeList.SchemeColor
                 tabButton.TextColor3 = themeList.TextColor
-                tabButton.BackgroundColor3 = themeList.SchemeColor
+                tabButton.BackgroundColor3 = themeList.ElementColor
                 sectionName.TextColor3 = themeList.TextColor
             end
         end)()
