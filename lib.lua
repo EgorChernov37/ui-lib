@@ -1287,7 +1287,7 @@ function Nordic.CreateLib(kavName, themeList)
 
                 sliderElement.Name = "sliderElement"
                 sliderElement.Parent = sectionInners
-                sliderElement.BackgroundColor3 = Color3.fromRGB(255,255,255)
+                sliderElement.BackgroundColor3 = themeList.ElementColor
                 sliderElement.ClipsDescendants = true
                 sliderElement.Size = UDim2.new(0, 352, 0, 33)
                 sliderElement.AutoButtonColor = false
