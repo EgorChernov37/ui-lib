@@ -643,7 +643,7 @@ function Nordic.CreateLib(kavName, themeList)
                 buttonElement.AutoButtonColor = false
                 buttonElement.Font = Enum.Font.SourceSans
                 buttonElement.Text = ""
-                buttonElement.TextColor3 = Color3.fromRGB(0, 0, 0)
+                buttonElement.TextColor3 = Color3.fromRGB(255,255,255)
                 buttonElement.TextSize = 14.000
                 Objects[buttonElement] = "BackgroundColor3"
 
@@ -1040,7 +1040,7 @@ function Nordic.CreateLib(kavName, themeList)
                     toggleElement.AutoButtonColor = false
                     toggleElement.Font = Enum.Font.SourceSans
                     toggleElement.Text = ""
-                    toggleElement.TextColor3 = Color3.fromRGB(0, 0, 0)
+                    toggleElement.TextColor3 = Color3.fromRGB(255,255,255)
                     toggleElement.TextSize = 14.000
 
                     UICorner.CornerRadius = UDim.new(0, 4)
@@ -1293,7 +1293,7 @@ function Nordic.CreateLib(kavName, themeList)
                 sliderElement.AutoButtonColor = false
                 sliderElement.Font = Enum.Font.SourceSans
                 sliderElement.Text = ""
-                sliderElement.TextColor3 = Color3.fromRGB(0, 0, 0)
+                sliderElement.TextColor3 = Color3.fromRGB(255, 255, 255)
                 sliderElement.TextSize = 14.000
 
                 UICorner.CornerRadius = UDim.new(0, 4)
