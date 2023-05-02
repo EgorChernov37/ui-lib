@@ -882,7 +882,7 @@ function Nordic.CreateLib(kavName, themeList)
                 TextBox.PlaceholderColor3 = themeList.SchemeColor
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
-                TextBox.TextColor3 = themeList.SchemeColor
+                TextBox.TextColor3 = Color3.fromRGB(255,255,255)
                 TextBox.TextSize = 12.000
 
                 UICorner_2.CornerRadius = UDim.new(0, 4)
