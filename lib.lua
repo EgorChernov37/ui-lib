@@ -92,18 +92,6 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme3 = {
-	-- Цвет фона у Секций
-    SchemeColor = Color3.fromRGB(98, 77, 128),
-	-- Цвет фона в правой части UI
-	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
-    Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
-    TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
-    ElementColor = Color3.fromRGB(20, 20, 20)
-    },
     RJTheme4 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 77, 112),
@@ -225,6 +213,8 @@ function Nordic.CreateLib(kavName, themeList)
         themeList = themeStyles.RJTheme7
     elseif themeList == "RJTheme8" then
         themeList = themeStyles.RJTheme8
+    elseif themeList == "Nord" then
+        themeList = themeStyles.Nord
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
