@@ -154,8 +154,7 @@ local themeStyles = {
     },
     Nord = {
         -- Цвет фона у Секций
-        --SchemeColor = Color3.fromRGB(67, 76, 94),
-        SchemeColor = Color3.fromRGB(255, 255, 255),
+        SchemeColor = Color3.fromRGB(67, 76, 94),
         -- Цвет фона в правой части UI
         Background = Color3.fromRGB(76, 86, 106),
         -- Цвет фона в левой части UI
@@ -163,7 +162,8 @@ local themeStyles = {
         -- Цвет текста
         TextColor = Color3.fromRGB(255,255,255),
         -- Цвет фона у кнопок
-        ElementColor = Color3.fromRGB(94, 129, 172)
+        -- ElementColor = Color3.fromRGB(94, 129, 172)
+        ElementColor = Color3.fromRGB(255, 255, 255)
     }
 }
 local oldTheme = ""
