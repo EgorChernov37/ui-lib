@@ -669,7 +669,7 @@ function Nordic.CreateLib(kavName, themeList)
                 Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 Sample.BackgroundTransparency = 1.000
                 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
-                Sample.ImageColor3 = themeList.SchemeColor
+                Sample.ImageColor3 = themeList.TextColor
                 Objects[Sample] = "ImageColor3"
                 Sample.ImageTransparency = 0.600
 
@@ -702,7 +702,7 @@ function Nordic.CreateLib(kavName, themeList)
                 touch.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                 touch.Size = UDim2.new(0, 21, 0, 21)
                 touch.Image = "rbxassetid://3926305904"
-                touch.ImageColor3 = themeList.SchemeColor
+                touch.ImageColor3 = themeList.TextColor
                 Objects[touch] = "SchemeColor"
                 touch.ImageRectOffset = Vector2.new(84, 204)
                 touch.ImageRectSize = Vector2.new(36, 36)
@@ -1054,7 +1054,7 @@ function Nordic.CreateLib(kavName, themeList)
                     toggleDisabled.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                     toggleDisabled.Size = UDim2.new(0, 21, 0, 21)
                     toggleDisabled.Image = "rbxassetid://3926309567"
-                    toggleDisabled.ImageColor3 = themeList.SchemeColor
+                    toggleDisabled.ImageColor3 = themeList.TextColor
                     toggleDisabled.ImageRectOffset = Vector2.new(628, 420)
                     toggleDisabled.ImageRectSize = Vector2.new(48, 48)
 
