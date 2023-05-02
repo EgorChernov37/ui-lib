@@ -322,6 +322,7 @@ function Nordic.CreateLib(kavName, themeList)
     close.Size = UDim2.new(0, 21, 0, 21)
     close.ZIndex = 2
     close.Image = "rbxassetid://3926305904"
+    close.ImageColor3 = Color3.fromRGB(23,23,23)
     close.ImageRectOffset = Vector2.new(284, 4)
     close.ImageRectSize = Vector2.new(24, 24)
     close.MouseButton1Click:Connect(function()
