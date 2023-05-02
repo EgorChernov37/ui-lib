@@ -216,18 +216,6 @@ function Nordic.CreateLib(kavName, themeList)
         themeList = themeStyles.RJTheme8
     elseif themeList == "Nord" then
         themeList = themeStyles.Nord
-    else
-        if themeList.SchemeColor == nil then
-            themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
-        elseif themeList.Background == nil then
-            themeList.Background = Color3.fromRGB(36, 37, 43)
-        elseif themeList.Header == nil then
-            themeList.Header = Color3.fromRGB(28, 29, 34)
-        elseif themeList.TextColor == nil then
-            themeList.TextColor = Color3.fromRGB(255,255,255)
-        elseif themeList.ElementColor == nil then
-            themeList.ElementColor = Color3.fromRGB(32, 32, 38)
-        end
     end
 
     themeList = themeList or {}
