@@ -163,7 +163,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         -- Цвет фона у кнопок
         -- ElementColor = Color3.fromRGB(94, 129, 172)
-        ElementColor = Color3.fromRGB(255, 255, 255)
+        ElementColor = Color3.fromRGB(94, 129, 172)
     }
 }
 local oldTheme = ""
@@ -216,6 +216,18 @@ function Nordic.CreateLib(kavName, themeList)
         themeList = themeStyles.RJTheme8
     elseif themeList == "Nord" then
         themeList = themeStyles.Nord
+    else
+        if themeList.SchemeColor == nil then
+            themeList.SchemeColor = Color3.fromRGB(67, 76, 94)
+        elseif themeList.Background == nil then
+            themeList.Background = Color3.fromRGB(76, 86, 106)
+        elseif themeList.Header == nil then
+            themeList.Header = Color3.fromRGB(59, 66, 82)
+        elseif themeList.TextColor == nil then
+            themeList.TextColor = Color3.fromRGB(255,255,255)
+        elseif themeList.ElementColor == nil then
+            themeList.ElementColor = Color3.fromRGB(94, 129, 172)
+        end
     end
 
     themeList = themeList or {}
