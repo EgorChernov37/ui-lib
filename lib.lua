@@ -840,7 +840,7 @@ function Nordic.CreateLib(kavName, themeList)
                 textboxElement.AutoButtonColor = false
                 textboxElement.Font = Enum.Font.SourceSans
                 textboxElement.Text = ""
-                textboxElement.TextColor3 = Color3.fromRGB(255, 255, 255)
+                textboxElement.TextColor3 = Color3.fromRGB(0, 0, 0)
                 textboxElement.TextSize = 14.000
 
                 UICorner.CornerRadius = UDim.new(0, 4)
@@ -879,10 +879,10 @@ function Nordic.CreateLib(kavName, themeList)
                 TextBox.ZIndex = 99
                 TextBox.ClearTextOnFocus = false
                 TextBox.Font = Enum.Font.Gotham
-                TextBox.PlaceholderColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 19, themeList.SchemeColor.g * 255 - 26, themeList.SchemeColor.b * 255 - 35)
+                TextBox.PlaceholderColor3 = themeList.SchemeColor
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
-                TextBox.TextColor3 = Color3.fromRGB(255,255,255)
+                TextBox.TextColor3 = themeList.SchemeColor
                 TextBox.TextSize = 12.000
 
                 UICorner_2.CornerRadius = UDim.new(0, 4)
