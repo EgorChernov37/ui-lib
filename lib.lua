@@ -162,7 +162,8 @@ local themeStyles = {
         -- Цвет текста
         TextColor = Color3.fromRGB(255,255,255),
         -- Цвет фона у кнопок
-        ElementColor = Color3.fromRGB(94, 129, 172)
+        -- ElementColor = Color3.fromRGB(94, 129, 172)
+        ElementColor = Color3.fromRGB(255, 255, 255)
     }
 }
 local oldTheme = ""
