@@ -638,7 +638,7 @@ function Nordic.CreateLib(kavName, themeList)
 
                 buttonElement.Name = bname
                 buttonElement.Parent = sectionInners
-                buttonElement.BackgroundColor3 = themeList.ElementColor
+                buttonElement.BackgroundColor3 = Color3.fromRGB(94, 129, 172)
                 buttonElement.ClipsDescendants = true
                 buttonElement.Size = UDim2.new(0, 352, 0, 33)
                 buttonElement.AutoButtonColor = false
