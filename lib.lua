@@ -643,7 +643,7 @@ function Nordic.CreateLib(kavName, themeList)
                 buttonElement.AutoButtonColor = false
                 buttonElement.Font = Enum.Font.SourceSans
                 buttonElement.Text = ""
-                buttonElement.TextColor3 = Color3.fromRGB(255,255,255)
+                buttonElement.TextColor3 = themeList.TextColor
                 buttonElement.TextSize = 14.000
                 Objects[buttonElement] = "BackgroundColor3"
 
@@ -665,7 +665,7 @@ function Nordic.CreateLib(kavName, themeList)
 
                 Sample.Name = "Sample"
                 Sample.Parent = buttonElement
-                Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Sample.BackgroundColor3 = themeList.ElementColor
                 Sample.BackgroundTransparency = 1.000
                 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
                 Sample.ImageColor3 = themeList.SchemeColor
@@ -840,7 +840,7 @@ function Nordic.CreateLib(kavName, themeList)
                 textboxElement.AutoButtonColor = false
                 textboxElement.Font = Enum.Font.SourceSans
                 textboxElement.Text = ""
-                textboxElement.TextColor3 = Color3.fromRGB(255,255,255)
+                textboxElement.TextColor3 = themeList.TextColor
                 textboxElement.TextSize = 14.000
 
                 UICorner.CornerRadius = UDim.new(0, 4)
@@ -882,7 +882,7 @@ function Nordic.CreateLib(kavName, themeList)
                 TextBox.PlaceholderColor3 = Color3.fromRGB(255,255,255)
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
-                TextBox.TextColor3 = Color3.fromRGB(255,255,255)
+                TextBox.TextColor3 = themeList.TextColor
                 TextBox.TextSize = 12.000
 
                 UICorner_2.CornerRadius = UDim.new(0, 4)
@@ -913,7 +913,7 @@ function Nordic.CreateLib(kavName, themeList)
                 moreInfo.Font = Enum.Font.GothamSemibold
                 moreInfo.RichText = true
                 moreInfo.Text = "  "..tTip
-                moreInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
+                moreInfo.TextColor3 = themeList.TextColor
                 moreInfo.TextSize = 14.000
                 moreInfo.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1010,8 +1010,8 @@ function Nordic.CreateLib(kavName, themeList)
                         moreInfo.TextColor3 = themeList.TextColor
                         write.ImageColor3 = themeList.SchemeColor
                         togName.TextColor3 = themeList.TextColor
-                        TextBox.PlaceholderColor3 = Color3.fromRGB(255,255,255)
-                        TextBox.TextColor3 = Color3.fromRGB(255,255,255)
+                        TextBox.PlaceholderColor3 = themeList.TextColor
+                        TextBox.TextColor3 = themeList.TextColor
                     end
                 end)()
             end 
@@ -1040,7 +1040,7 @@ function Nordic.CreateLib(kavName, themeList)
                     toggleElement.AutoButtonColor = false
                     toggleElement.Font = Enum.Font.SourceSans
                     toggleElement.Text = ""
-                    toggleElement.TextColor3 = Color3.fromRGB(255,255,255)
+                    toggleElement.TextColor3 = themeList.TextColor
                     toggleElement.TextSize = 14.000
 
                     UICorner.CornerRadius = UDim.new(0, 4)
@@ -1293,7 +1293,7 @@ function Nordic.CreateLib(kavName, themeList)
                 sliderElement.AutoButtonColor = false
                 sliderElement.Font = Enum.Font.SourceSans
                 sliderElement.Text = ""
-                sliderElement.TextColor3 = Color3.fromRGB(255, 255, 255)
+                sliderElement.TextColor3 = themeList.TextColor
                 sliderElement.TextSize = 14.000
 
                 UICorner.CornerRadius = UDim.new(0, 4)
@@ -1301,7 +1301,7 @@ function Nordic.CreateLib(kavName, themeList)
 
                 togName.Name = "togName"
                 togName.Parent = sliderElement
-                togName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                togName.BackgroundColor3 = themeList.TextColor
                 togName.BackgroundTransparency = 1.000
                 togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 togName.Size = UDim2.new(0, 138, 0, 14)
