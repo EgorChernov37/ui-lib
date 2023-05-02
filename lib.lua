@@ -879,7 +879,7 @@ function Nordic.CreateLib(kavName, themeList)
                 TextBox.ZIndex = 99
                 TextBox.ClearTextOnFocus = false
                 TextBox.Font = Enum.Font.Gotham
-                TextBox.PlaceholderColor3 = themeList.SchemeColor
+                TextBox.PlaceholderColor3 = Color3.fromRGB(255,255,255)
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
                 TextBox.TextColor3 = Color3.fromRGB(255,255,255)
