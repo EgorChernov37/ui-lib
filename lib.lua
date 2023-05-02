@@ -854,7 +854,7 @@ function Nordic.CreateLib(kavName, themeList)
                 viewInfo.Size = UDim2.new(0, 23, 0, 23)
                 viewInfo.ZIndex = 2
                 viewInfo.Image = "rbxassetid://3926305904"
-                viewInfo.ImageColor3 = themeList.SchemeColor
+                viewInfo.ImageColor3 = Color3.fromRGB(255,255,255)
                 viewInfo.ImageRectOffset = Vector2.new(764, 764)
                 viewInfo.ImageRectSize = Vector2.new(36, 36)
 
@@ -866,7 +866,7 @@ function Nordic.CreateLib(kavName, themeList)
                 write.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                 write.Size = UDim2.new(0, 21, 0, 21)
                 write.Image = "rbxassetid://3926305904"
-                write.ImageColor3 = themeList.SchemeColor
+                write.ImageColor3 = Color3.fromRGB(255,255,255)
                 write.ImageRectOffset = Vector2.new(324, 604)
                 write.ImageRectSize = Vector2.new(36, 36)
 
@@ -1010,8 +1010,8 @@ function Nordic.CreateLib(kavName, themeList)
                         moreInfo.TextColor3 = themeList.TextColor
                         write.ImageColor3 = themeList.SchemeColor
                         togName.TextColor3 = themeList.TextColor
-                        TextBox.PlaceholderColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 19, themeList.SchemeColor.g * 255 - 26, themeList.SchemeColor.b * 255 - 35)
-                        TextBox.TextColor3 = themeList.SchemeColor
+                        TextBox.PlaceholderColor3 = Color3.fromRGB(255,255,255)
+                        TextBox.TextColor3 = Color3.fromRGB(255,255,255)
                     end
                 end)()
             end 
