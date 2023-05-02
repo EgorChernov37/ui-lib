@@ -1053,7 +1053,7 @@ function Nordic.CreateLib(kavName, themeList)
                     toggleDisabled.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                     toggleDisabled.Size = UDim2.new(0, 21, 0, 21)
                     toggleDisabled.Image = "rbxassetid://3926309567"
-                    toggleDisabled.ImageColor3 = themeList.SchemeColor
+                    toggleDisabled.ImageColor3 = Color3.fromRGB(255,255,255)
                     toggleDisabled.ImageRectOffset = Vector2.new(628, 420)
                     toggleDisabled.ImageRectSize = Vector2.new(48, 48)
 
@@ -1064,7 +1064,7 @@ function Nordic.CreateLib(kavName, themeList)
                     toggleEnabled.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                     toggleEnabled.Size = UDim2.new(0, 21, 0, 21)
                     toggleEnabled.Image = "rbxassetid://3926309567"
-                    toggleEnabled.ImageColor3 = themeList.SchemeColor
+                    toggleEnabled.ImageColor3 = Color3.fromRGB(255,255,255)
                     toggleEnabled.ImageRectOffset = Vector2.new(784, 420)
                     toggleEnabled.ImageRectSize = Vector2.new(48, 48)
                     toggleEnabled.ImageTransparency = 1.000
