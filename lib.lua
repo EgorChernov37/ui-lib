@@ -154,7 +154,7 @@ local themeStyles = {
     },
     Nord = {
         -- Цвет фона у Секций
-        SchemeColor = Color3.fromRGB(255,255,255),
+        SchemeColor = Color3.fromRGB(67, 76, 94),
         -- Цвет фона в правой части UI
         Background = Color3.fromRGB(76, 86, 106),
         -- Цвет фона в левой части UI
